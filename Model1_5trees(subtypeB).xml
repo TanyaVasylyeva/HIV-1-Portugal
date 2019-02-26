@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<beast beautitemplate='Standard' beautistatus='' required="BDSKY v1.3.3" version="2.4"
+       namespace="beast.core
+                 :beast.evolution.alignment
+                 :beast.evolution.tree
+                 :beast.evolution.tree.coalescent
+                 :beast.core.util
+                 :beast.core.parameter
+                 :beast.evolution.nuc
+                 :beast.evolution.operators
+                 :beast.evolution.sitemodel
+                 :beast.evolution.substitutionmodel
+                 :beast.evolution.likelihood
+                 :beast.evolution.speciation">
+
+
+<!--  Birth-death skyline with 5 clusters on separate trees
+
+      HKY + strict clock + constant rate serially-sampled birth-death model (not really a skyline)
+      
+      Clusters share the same HKY model and clock model (Kappy, frequencies and clock rate)
+      Clusters have the same becoming noninfectious rate
+
+      Each cluster has its own origin
+
+      
+      Possible modification: 
+            Give each alignment/tree its own mutation rate and fix the mean mutation rate to 1
+            (Gives some freedom for different clusters to evolve at different speeds)
+
+-->
+
+
+
+
+
+
+<data id="cluster1" name="alignment">
+                    <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="XXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                    </data>
+
+
+<data id="cluster2" name="alignment">
+                          <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                    </data>
+<data id="cluster3"
+name="alignment">
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                    </data>
+     
+<data id="cluster4" name="alignment">
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                    </data>                  
+
+<data id="cluster5"
+name="alignment">
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                    </data>
+                       
+                           
+<map name="Uniform" >beast.math.distributions.Uniform</map>
+<map name="Exponential" >beast.math.distributions.Exponential</map>
+<map name="LogNormal" >beast.math.distributions.LogNormalDistributionModel</map>
+<map name="Normal" >beast.math.distributions.Normal</map>
+<map name="Beta" >beast.math.distributions.Beta</map>
+<map name="Gamma" >beast.math.distributions.Gamma</map>
+<map name="LaplaceDistribution" >beast.math.distributions.LaplaceDistribution</map>
+<map name="prior" >beast.math.distributions.Prior</map>
+<map name="InverseGamma" >beast.math.distributions.InverseGamma</map>
+<map name="OneOnX" >beast.math.distributions.OneOnX</map>
+              
+<!-- setting sampling time to zero before 2001
+      cluster1: 2001.0 - 2012.0 => oldest sample at 11
+      cluster2: 2001.0 - 2012.0 => oldest sample at 11
+      cluster3: 2001.0 - 2008.0 => oldest sample at 7
+      cluster4: 2001.0 - 2013.0 => oldest sample at 12
+      cluster5: 2001.0 - 2012.0 => oldest sample at 11
+-->
+<parameter id="samplingRateChangeTimes_cluster1" spec="RealParameter" value="0 11.0001"/>
+<parameter id="samplingRateChangeTimes_cluster2" spec="RealParameter" value="0 11.0001"/>
+<parameter id="samplingRateChangeTimes_cluster3" spec="RealParameter" value="0 7.0001"/>
+<parameter id="samplingRateChangeTimes_cluster4" spec="RealParameter" value="0 12.0001"/>
+<parameter id="samplingRateChangeTimes_cluster5" spec="RealParameter" value="0 11.0001"/>
+<parameter id="reverseTimeArrays" spec="BooleanParameter" value="false false true false false"/>
+<parameter id="becomeUninfectiousRate" name="stateNode">0.5</parameter>
+<function spec="Slice" id="samplingProportionSlice" arg="@samplingProportion" index="1" count="1"/>
+
+
+
+<run id="mcmc" spec="MCMC" chainLength="100000000">
+      <state id="state" storeEvery="5000">
+
+            <tree id="Tree.t:cluster1" name="stateNode">
+            <trait id="dateTrait.t:cluster1" spec="TraitSet" traitname="date">
+                  XXX                
+                        <taxa id="TaxonSet.cluster1" spec="TaxonSet">
+                          <alignment idref="cluster1"/>
+                        </taxa>
+                  </trait>
+                  <taxonset idref="TaxonSet.cluster1"/>
+            </tree>
+
+            <tree id="Tree.t:cluster2" name="stateNode">
+                  <trait id="dateTrait.t:cluster2" spec="beast.evolution.tree.TraitSet" traitname="date">
+                          XXX
+                        <taxa id="TaxonSet.cluster2" spec="TaxonSet">
+                          <alignment idref="cluster2"/>
+                        </taxa>
+                  </trait>
+                  <taxonset idref="TaxonSet.cluster2"/>
+            </tree>
+
+ <tree id="Tree.t:cluster3" name="stateNode">
+                  <trait id="dateTrait.t:cluster3" spec="beast.evolution.tree.TraitSet" traitname="date">
+                        XXX              
+                        <taxa id="TaxonSet.cluster3" spec="TaxonSet">
+                          <alignment idref="cluster3"/>
+                        </taxa>
+                  </trait>
+                  <taxonset idref="TaxonSet.cluster3"/>
+            </tree>
+            
+ <tree id="Tree.t:cluster4" name="stateNode">
+                  <trait id="dateTrait.t:cluster4" spec="beast.evolution.tree.TraitSet" traitname="date">
+                        XXX        
+                        <taxa id="TaxonSet.cluster4" spec="TaxonSet">
+                          <alignment idref="cluster4"/>
+                        </taxa>
+                  </trait>
+                  <taxonset idref="TaxonSet.cluster4"/>
+            </tree>
+            
+ <tree id="Tree.t:cluster5" name="stateNode">
+                  <trait id="dateTrait.t:cluster5" spec="beast.evolution.tree.TraitSet" traitname="date">
+                      XXX               
+                        <taxa id="TaxonSet.cluster5" spec="TaxonSet">
+                          <alignment idref="cluster5"/>
+                        </taxa>
+                  </trait>
+                  <taxonset idref="TaxonSet.cluster5"/>
+            </tree>
+
+            <parameter id="kappa" lower="0.0" name="stateNode">2.0</parameter>
+            <parameter id="freqParameter" dimension="4" lower="0.0" name="stateNode" upper="1.0">0.25</parameter>
+            <parameter id="clockRate" name="stateNode" lower="0">0.002</parameter>
+
+            <parameter id="reproductiveNumber" dimension="1" lower="0.0" name="stateNode" upper="Infinity">2.0</parameter>
+        	<parameter id="samplingProportion" lower="0.01" name="stateNode" upper="0.2">0 0.05</parameter>
+
+            <parameter id="origin.t:cluster1" lower="0.0" name="stateNode" upper="100">50.0</parameter>
+            <parameter id="origin.t:cluster2" lower="0.0" name="stateNode" upper="100">50.0</parameter>     
+      		<parameter id="origin.t:cluster3" lower="0.0" name="stateNode" upper="100">50.0</parameter>    
+     		<parameter id="origin.t:cluster4" lower="0.0" name="stateNode" upper="100">50.0</parameter>    
+     		<parameter id="origin.t:cluster5" lower="0.0" name="stateNode" upper="100">50.0</parameter>    
+      </state>
+
+      <!-- Initial trees -->
+      
+      
+      <init id="RandomTree.t:cluster1" spec="beast.evolution.tree.RandomTree" estimate="false" initial="@Tree.t:cluster1" taxa="@cluster1">
+            <populationModel spec="ConstantPopulation" popSize="1.0"/>
+      </init>
+
+      <init id="RandomTree.t:cluster2" spec="beast.evolution.tree.RandomTree" estimate="false" initial="@Tree.t:cluster2" taxa="@cluster2">
+            <populationModel spec="ConstantPopulation" popSize="1.0"/>
+      </init>
+
+      <init id="RandomTree.t:cluster3" spec="beast.evolution.tree.RandomTree" estimate="false" initial="@Tree.t:cluster3" taxa="@cluster3">
+            <populationModel spec="ConstantPopulation" popSize="1.0"/>
+      </init>
+      
+      <init id="RandomTree.t:cluster4" spec="beast.evolution.tree.RandomTree" estimate="false" initial="@Tree.t:cluster4" taxa="@cluster4">
+            <populationModel spec="ConstantPopulation" popSize="1.0"/>
+      </init>
+      
+      <init id="RandomTree.t:cluster5" spec="beast.evolution.tree.RandomTree" estimate="false" initial="@Tree.t:cluster5" taxa="@cluster5">
+            <populationModel spec="ConstantPopulation" popSize="1.0"/>
+      </init>
+
+
+      <distribution id="posterior" spec="util.CompoundDistribution">
+
+            <!-- Begin prior -->
+            <distribution id="prior" spec="util.CompoundDistribution">
+
+                  <!-- Treeprior cluster1 -->
+                  <distribution id="BirthDeathSkySerial.t:cluster1" 
+                                spec="beast.evolution.speciation.BirthDeathSkylineModel" 
+                                tree="@Tree.t:cluster1"
+                                reproductiveNumber="@reproductiveNumber" 
+                                becomeUninfectiousRate="@becomeUninfectiousRate" 
+                                samplingRateChangeTimes="@samplingRateChangeTimes_cluster1"
+                          		reverseTimeArrays="@reverseTimeArrays"
+                                samplingProportion="@samplingProportion" 
+                                origin="@origin.t:cluster1"/>
+
+                  <!-- Treeprior cluster2 -->
+                  <distribution id="BirthDeathSkySerial.t:cluster2" 
+                                spec="beast.evolution.speciation.BirthDeathSkylineModel" 
+                                tree="@Tree.t:cluster2"
+                                reproductiveNumber="@reproductiveNumber" 
+                                becomeUninfectiousRate="@becomeUninfectiousRate" 
+                                 samplingRateChangeTimes="@samplingRateChangeTimes_cluster2"
+                          		reverseTimeArrays="@reverseTimeArrays"
+                                samplingProportion="@samplingProportion" 
+                                origin="@origin.t:cluster2"/>
+
+                  <!-- Treeprior cluster3 -->
+                  <distribution id="BirthDeathSkySerial.t:cluster3" 
+                                spec="beast.evolution.speciation.BirthDeathSkylineModel" 
+                                tree="@Tree.t:cluster3"
+                                reproductiveNumber="@reproductiveNumber" 
+                                becomeUninfectiousRate="@becomeUninfectiousRate" 
+                                samplingRateChangeTimes="@samplingRateChangeTimes_cluster3"
+                         		reverseTimeArrays="@reverseTimeArrays"
+                                samplingProportion="@samplingProportion" 
+                                origin="@origin.t:cluster3"/>
+
+                  <!-- Treeprior cluster4 -->
+                  <distribution id="BirthDeathSkySerial.t:cluster4" 
+                                spec="beast.evolution.speciation.BirthDeathSkylineModel" 
+                                tree="@Tree.t:cluster4"
+                                reproductiveNumber="@reproductiveNumber" 
+                                becomeUninfectiousRate="@becomeUninfectiousRate" 
+                                samplingRateChangeTimes="@samplingRateChangeTimes_cluster4"
+                          		reverseTimeArrays="@reverseTimeArrays"
+                                samplingProportion="@samplingProportion" 
+                                origin="@origin.t:cluster4"/>
+
+                  <!-- Treeprior cluster5 -->
+                  <distribution id="BirthDeathSkySerial.t:cluster5" 
+                                spec="beast.evolution.speciation.BirthDeathSkylineModel" 
+                                tree="@Tree.t:cluster5"
+                                reproductiveNumber="@reproductiveNumber" 
+                                becomeUninfectiousRate="@becomeUninfectiousRate"
+                                samplingRateChangeTimes="@samplingRateChangeTimes_cluster5"
+                          		reverseTimeArrays="@reverseTimeArrays" 
+                                samplingProportion="@samplingProportion" 
+                                origin="@origin.t:cluster5"/>
+
+
+                  <!-- Treeprior priors -->
+					<prior id="reproductiveNumberPrior" name="distribution" x="@reproductiveNumber">                      
+                              <LogNormal name="distr" M="1.0" S="1.25" offset="0.0"/>
+                        </prior>
+                        
+                        <prior id="originPrior.t:cluster1" name="distribution" x="@origin.t:cluster1">
+                            <Uniform name="distr" upper="100" lower="0"/>
+                        </prior>
+
+                        <prior id="originPrior.t:cluster2" name="distribution" x="@origin.t:cluster2">
+                            <Uniform name="distr" upper="100" lower="0"/>
+                        </prior>
+                        
+                        <prior id="originPrior.t:cluster3" name="distribution" x="@origin.t:cluster3">
+                            <Uniform name="distr" upper="100" lower="0"/>
+                        </prior>
+                       
+                        <prior id="originPrior.t:cluster4" name="distribution" x="@origin.t:cluster4">
+                            <Uniform name="distr" upper="100" lower="0"/>
+                        </prior>
+                        
+                        <prior id="originPrior.t:cluster5" name="distribution" x="@origin.t:cluster5">
+                            <Uniform name="distr" upper="100" lower="0"/>
+                        </prior>
+
+  			<prior id="samplingProportionPrior" name="distribution" x="@samplingProportionSlice">
+                <Beta id="Beta.0" name="distr">
+                    <parameter id="RealParameter.7" estimate="false" name="alpha">1.0</parameter>
+                    <parameter id="RealParameter.8" estimate="false" name="beta">10.0</parameter>
+                </Beta>
+            </prior>
+                  <!-- Site model priors -->
+                  <prior id="KappaPrior" name="distribution" x="@kappa">
+                        <LogNormal name="distr" M="1" S="1.25" offset="0.0"/>
+                  </prior>
+
+                  <!-- Clock model priors -->
+                  <prior id="ClockPrior" name="distribution" x="@clockRate">
+                      <Uniform id="Uniform.0" name="distr" upper="0.00351" lower="0.00174"/>
+                  </prior>
+            </distribution>
+            <!-- End prior -->
+
+
+            <!-- Begin likelihood -->
+            <distribution id="likelihood" spec="util.CompoundDistribution" useThreads="true">
+
+                  <!-- cluster1 alignment likelihood -->
+                  <distribution id="treeLikelihood.t:cluster1" spec="ThreadedTreeLikelihood" data="@cluster1" tree="@Tree.t:cluster1">
+                      <siteModel id="SiteModel.t:cluster1" spec="SiteModel">
+                          <parameter id="mutationRate.t:cluster1" estimate="false" name="mutationRate">1.0</parameter>
+                          <parameter id="gammaShape.t:cluster1" estimate="false" name="shape">0.5</parameter>
+                          <parameter id="proportionInvariant.t:cluster1" estimate="false" lower="0.0" name="proportionInvariant" upper="1.0">0.0</parameter>
+                          <substModel id="hky" spec="HKY" kappa="@kappa">
+                              <frequencies id="estimatedFreqs" spec="Frequencies" frequencies="@freqParameter"/>
+                          </substModel>
+                      </siteModel>
+                      <branchRateModel id="StrictClock" spec="beast.evolution.branchratemodel.StrictClockModel" clock.rate="@clockRate"/>
+                  </distribution>
+
+                  <!-- cluster2 alignment likelihood -->
+                  <distribution id="treeLikelihood.t:cluster2" spec="ThreadedTreeLikelihood" data="@cluster2" tree="@Tree.t:cluster2"              branchRateModel="@StrictClock">
+                      <siteModel id="SiteModel.t:cluster2" spec="SiteModel" substModel="@hky">
+                          <parameter id="mutationRate.t:cluster2" estimate="false" name="mutationRate">1.0</parameter>
+                          <parameter id="gammaShape.t:cluster2" estimate="false" name="shape">0.5</parameter>
+                          <parameter id="proportionInvariant.t:cluster2" estimate="false" lower="0.0" name="proportionInvariant" upper="1.0">0.0</parameter>
+                      </siteModel>
+                  </distribution>
+
+                  <!-- cluster3 alignment likelihood -->
+                  <distribution id="treeLikelihood.t:cluster3" spec="ThreadedTreeLikelihood" data="@cluster3" tree="@Tree.t:cluster3"              branchRateModel="@StrictClock">
+                      <siteModel id="SiteModel.t:cluster3" spec="SiteModel" substModel="@hky">
+                          <parameter id="mutationRate.t:cluster3" estimate="false" name="mutationRate">1.0</parameter>
+                          <parameter id="gammaShape.t:cluster3" estimate="false" name="shape">0.5</parameter>
+                          <parameter id="proportionInvariant.t:cluster3" estimate="false" lower="0.0" name="proportionInvariant" upper="1.0">0.0</parameter>
+                      </siteModel>
+                  </distribution>
+
+                  <!-- cluster4 alignment likelihood -->
+                  <distribution id="treeLikelihood.t:cluster4" spec="ThreadedTreeLikelihood" data="@cluster4" tree="@Tree.t:cluster4"              branchRateModel="@StrictClock">
+                      <siteModel id="SiteModel.t:cluster4" spec="SiteModel" substModel="@hky">
+                          <parameter id="mutationRate.t:cluster4" estimate="false" name="mutationRate">1.0</parameter>
+                          <parameter id="gammaShape.t:cluster4" estimate="false" name="shape">0.5</parameter>
+                          <parameter id="proportionInvariant.t:cluster4" estimate="false" lower="0.0" name="proportionInvariant" upper="1.0">0.0</parameter>
+                      </siteModel>
+                  </distribution>
+
+                  <!-- cluster5 alignment likelihood -->
+                  <distribution id="treeLikelihood.t:cluster5" spec="ThreadedTreeLikelihood" data="@cluster5" tree="@Tree.t:cluster5"              branchRateModel="@StrictClock">
+                      <siteModel id="SiteModel.t:cluster5" spec="SiteModel" substModel="@hky">
+                          <parameter id="mutationRate.t:cluster5" estimate="false" name="mutationRate">1.0</parameter>
+                          <parameter id="gammaShape.t:cluster5" estimate="false" name="shape">0.5</parameter>
+                          <parameter id="proportionInvariant.t:cluster5" estimate="false" lower="0.0" name="proportionInvariant" upper="1.0">0.0</parameter>
+                      </siteModel>
+                  </distribution>
+
+
+            </distribution>
+            <!-- End likelihood -->
+
+      </distribution>
+
+
+      <!-- Begin operators -->
+
+            <!-- Site model operators -->
+            <operator id="KappaScaler" spec="ScaleOperator" parameter="@kappa" scaleFactor="0.75" weight="0.1"/>
+            <operator id="FrequenciesExchanger" spec="DeltaExchangeOperator" delta="0.01" weight="0.1">
+                  <parameter idref="freqParameter"/>
+            </operator>
+
+            <!-- Clock model operators -->
+            <operator id="StrictClockRateScaler" spec="ScaleOperator" parameter="@clockRate" scaleFactor="0.75" weight="3.0"/>
+            <operator id="strictClockUpDownOperator.t:cluster1" spec="UpDownOperator" scaleFactor="0.75" weight="3.0">
+                  <up idref="clockRate"/>
+                  <down idref="Tree.t:cluster1"/>
+            </operator>
+            <operator id="strictClockUpDownOperator.t:cluster2" spec="UpDownOperator" scaleFactor="0.75" weight="3.0">
+                  <up idref="clockRate"/>
+                  <down idref="Tree.t:cluster2"/>
+            </operator>
+            <operator id="strictClockUpDownOperator.t:cluster3" spec="UpDownOperator" scaleFactor="0.75" weight="3.0">
+                  <up idref="clockRate"/>
+                  <down idref="Tree.t:cluster3"/>
+            </operator>
+            <operator id="strictClockUpDownOperator.t:cluster4" spec="UpDownOperator" scaleFactor="0.75" weight="3.0">
+                  <up idref="clockRate"/>
+                  <down idref="Tree.t:cluster4"/>
+            </operator>
+            <operator id="strictClockUpDownOperator.t:cluster5" spec="UpDownOperator" scaleFactor="0.75" weight="3.0">
+                  <up idref="clockRate"/>
+                  <down idref="Tree.t:cluster5"/>
+            </operator>
+
+            <!-- cluster1 tree operators -->
+            <operator id="BDSKY_serialtreeScaler.t:cluster1" spec="ScaleOperator" scaleFactor="0.75" tree="@Tree.t:cluster1" weight="3.0"/>
+            <operator id="BDSKY_serialtreeRootScaler.t:cluster1" spec="ScaleOperator" rootOnly="true" scaleFactor="0.75" tree="@Tree.t:cluster1" weight="3.0"/>
+            <operator id="BDSKY_serialUniformOperator.t:cluster1" spec="Uniform" tree="@Tree.t:cluster1" weight="30.0"/>
+            <operator id="BDSKY_serialSubtreeSlide.t:cluster1" spec="SubtreeSlide" tree="@Tree.t:cluster1" weight="15.0"/>
+            <operator id="BDSKY_serialnarrow.t:cluster1" spec="Exchange" tree="@Tree.t:cluster1" weight="15.0"/>
+            <operator id="BDSKY_serialwide.t:cluster1" spec="Exchange" isNarrow="false" tree="@Tree.t:cluster1" weight="3.0"/>
+            <operator id="BDSKY_serialWilsonBalding.t:cluster1" spec="WilsonBalding" tree="@Tree.t:cluster1" weight="3.0"/>
+
+            <!-- cluster2 tree operators -->
+            <operator id="BDSKY_serialtreeScaler.t:cluster2" spec="ScaleOperator" scaleFactor="0.75" tree="@Tree.t:cluster2" weight="3.0"/>
+            <operator id="BDSKY_serialtreeRootScaler.t:cluster2" spec="ScaleOperator" rootOnly="true" scaleFactor="0.75" tree="@Tree.t:cluster2" weight="3.0"/>
+            <operator id="BDSKY_serialUniformOperator.t:cluster2" spec="Uniform" tree="@Tree.t:cluster2" weight="30.0"/>
+            <operator id="BDSKY_serialSubtreeSlide.t:cluster2" spec="SubtreeSlide" tree="@Tree.t:cluster2" weight="15.0"/>
+            <operator id="BDSKY_serialnarrow.t:cluster2" spec="Exchange" tree="@Tree.t:cluster1" weight="15.0"/>
+            <operator id="BDSKY_serialwide.t:cluster2" spec="Exchange" isNarrow="false" tree="@Tree.t:cluster2" weight="3.0"/>
+            <operator id="BDSKY_serialWilsonBalding.t:cluster2" spec="WilsonBalding" tree="@Tree.t:cluster2" weight="3.0"/>
+
+            <!-- cluster3 tree operators -->
+            <operator id="BDSKY_serialtreeScaler.t:cluster3" spec="ScaleOperator" scaleFactor="0.75" tree="@Tree.t:cluster3" weight="3.0"/>
+            <operator id="BDSKY_serialtreeRootScaler.t:cluster3" spec="ScaleOperator" rootOnly="true" scaleFactor="0.75" tree="@Tree.t:cluster3" weight="3.0"/>
+            <operator id="BDSKY_serialUniformOperator.t:cluster3" spec="Uniform" tree="@Tree.t:cluster3" weight="30.0"/>
+            <operator id="BDSKY_serialSubtreeSlide.t:cluster3" spec="SubtreeSlide" tree="@Tree.t:cluster3" weight="15.0"/>
+            <operator id="BDSKY_serialnarrow.t:cluster3" spec="Exchange" tree="@Tree.t:cluster3" weight="15.0"/>
+            <operator id="BDSKY_serialwide.t:cluster3" spec="Exchange" isNarrow="false" tree="@Tree.t:cluster3" weight="3.0"/>
+            <operator id="BDSKY_serialWilsonBalding.t:cluster3" spec="WilsonBalding" tree="@Tree.t:cluster3" weight="3.0"/>
+
+            <!-- cluster4 tree operators -->
+            <operator id="BDSKY_serialtreeScaler.t:cluster4" spec="ScaleOperator" scaleFactor="0.75" tree="@Tree.t:cluster4" weight="3.0"/>
+            <operator id="BDSKY_serialtreeRootScaler.t:cluster4" spec="ScaleOperator" rootOnly="true" scaleFactor="0.75" tree="@Tree.t:cluster4" weight="3.0"/>
+            <operator id="BDSKY_serialUniformOperator.t:cluster4" spec="Uniform" tree="@Tree.t:cluster4" weight="30.0"/>
+            <operator id="BDSKY_serialSubtreeSlide.t:cluster4" spec="SubtreeSlide" tree="@Tree.t:cluster4" weight="15.0"/>
+            <operator id="BDSKY_serialnarrow.t:cluster4" spec="Exchange" tree="@Tree.t:cluster4" weight="15.0"/>
+            <operator id="BDSKY_serialwide.t:cluster4" spec="Exchange" isNarrow="false" tree="@Tree.t:cluster4" weight="3.0"/>
+            <operator id="BDSKY_serialWilsonBalding.t:cluster4" spec="WilsonBalding" tree="@Tree.t:cluster4" weight="3.0"/>
+
+            <!-- cluster5 tree operators -->
+            <operator id="BDSKY_serialtreeScaler.t:cluster5" spec="ScaleOperator" scaleFactor="0.75" tree="@Tree.t:cluster5" weight="3.0"/>
+            <operator id="BDSKY_serialtreeRootScaler.t:cluster5" spec="ScaleOperator" rootOnly="true" scaleFactor="0.75" tree="@Tree.t:cluster5" weight="3.0"/>
+            <operator id="BDSKY_serialUniformOperator.t:cluster5" spec="Uniform" tree="@Tree.t:cluster5" weight="30.0"/>
+            <operator id="BDSKY_serialSubtreeSlide.t:cluster5" spec="SubtreeSlide" tree="@Tree.t:cluster5" weight="15.0"/>
+            <operator id="BDSKY_serialnarrow.t:cluster5" spec="Exchange" tree="@Tree.t:cluster5" weight="15.0"/>
+            <operator id="BDSKY_serialwide.t:cluster5" spec="Exchange" isNarrow="false" tree="@Tree.t:cluster5" weight="3.0"/>
+            <operator id="BDSKY_serialWilsonBalding.t:cluster5" spec="WilsonBalding" tree="@Tree.t:cluster5" weight="3.0"/>
+
+            <!-- BDSKY operators -->
+            <operator id="reproductiveNumberScaler" spec="ScaleOperator" parameter="@reproductiveNumber" scaleFactor="0.75" weight="1.0"/>
+
+                <operator id="origScaler.t:cluster1" spec="ScaleOperator" parameter="@origin.t:cluster1" scaleFactor="0.75" weight="1.0"/>
+                <operator id="origScaler.t:cluster2" spec="ScaleOperator" parameter="@origin.t:cluster2" scaleFactor="0.75" weight="1.0"/>
+                <operator id="origScaler.t:cluster3" spec="ScaleOperator" parameter="@origin.t:cluster3" scaleFactor="0.75" weight="1.0"/>
+                <operator id="origScaler.t:cluster4" spec="ScaleOperator" parameter="@origin.t:cluster4" scaleFactor="0.75" weight="1.0"/>
+                <operator id="origScaler.t:cluster5" spec="ScaleOperator" parameter="@origin.t:cluster5" scaleFactor="0.75" weight="1.0"/>
+                  
+                <operator id="samplingScaler" spec="ScaleOperator" parameter="@samplingProportion" scaleFactor="0.75" weight="2.0"/>
+
+
+      <!-- End operators -->
+
+
+
+      <logger id="tracelog" fileName="PT_B_1model_2y.log" logEvery="1000" model="@posterior" sanitiseHeaders="true" sort="smart">
+            <log idref="posterior"/>
+            <log idref="likelihood"/>
+            <log idref="prior"/>
+            <log idref="treeLikelihood.t:cluster1"/>
+            <log idref="treeLikelihood.t:cluster2"/>
+            <log idref="treeLikelihood.t:cluster3"/>
+            <log idref="treeLikelihood.t:cluster4"/>
+            <log idref="treeLikelihood.t:cluster5"/>
+            <log idref="BirthDeathSkySerial.t:cluster1"/>
+            <log idref="BirthDeathSkySerial.t:cluster2"/>
+            <log idref="BirthDeathSkySerial.t:cluster3"/>
+            <log idref="BirthDeathSkySerial.t:cluster4"/>
+            <log idref="BirthDeathSkySerial.t:cluster5"/>
+            <log idref="kappa"/>
+            <log idref="freqParameter"/>
+            <log idref="clockRate"/>
+            <log id="TreeHeight.t:cluster1" spec="beast.evolution.tree.TreeHeightLogger" tree="@Tree.t:cluster1"/>
+            <log id="TreeHeight.t:cluster2" spec="beast.evolution.tree.TreeHeightLogger" tree="@Tree.t:cluster2"/>
+            <log id="TreeHeight.t:cluster3" spec="beast.evolution.tree.TreeHeightLogger" tree="@Tree.t:cluster2"/>
+            <log id="TreeHeight.t:cluster4" spec="beast.evolution.tree.TreeHeightLogger" tree="@Tree.t:cluster2"/>
+            <log id="TreeHeight.t:cluster5" spec="beast.evolution.tree.TreeHeightLogger" tree="@Tree.t:cluster2"/>
+            <log idref="origin.t:cluster1"/>
+            <log idref="reproductiveNumber"/>
+            <log idref="origin.t:cluster2"/>
+            <log idref="origin.t:cluster3"/>
+            <log idref="origin.t:cluster4"/>
+            <log idref="origin.t:cluster5"/>
+            <log idref="becomeUninfectiousRate"/>
+            <log idref="samplingProportion"/>
+
+      </logger>
+
+      <logger id="screenlog" logEvery="1000">
+            <log idref="posterior"/>
+            <log id="ESS.0" spec="util.ESS" arg="@posterior"/>
+            <log idref="likelihood"/>
+            <log idref="prior"/>
+      </logger>
+
+      <logger id="treelog.t:cluster1" fileName="PT_B_1model_2y.t:cluster1.trees" logEvery="1000" mode="tree">
+            <log id="TreeWithMetaDataLogger.t:cluster1" spec="beast.evolution.tree.TreeWithMetaDataLogger" tree="@Tree.t:cluster1"/>
+      </logger>
+
+      <logger id="treelog.t:cluster2" fileName="PT_B_1model_2y.t:cluster2.trees" logEvery="1000" mode="tree">
+            <log id="TreeWithMetaDataLogger.t:cluster2" spec="beast.evolution.tree.TreeWithMetaDataLogger" tree="@Tree.t:cluster2"/>
+      </logger>
+
+      <logger id="treelog.t:cluster3" fileName="PT_B_1model_2y.t:cluster3.trees" logEvery="1000" mode="tree">
+            <log id="TreeWithMetaDataLogger.t:cluster3" spec="beast.evolution.tree.TreeWithMetaDataLogger" tree="@Tree.t:cluster3"/>
+      </logger>
+
+      <logger id="treelog.t:cluster4" fileName="PT_B_1model_2y.t:cluster4.trees" logEvery="1000" mode="tree">
+            <log id="TreeWithMetaDataLogger.t:cluster4" spec="beast.evolution.tree.TreeWithMetaDataLogger" tree="@Tree.t:cluster4"/>
+      </logger>
+
+      <logger id="treelog.t:cluster5" fileName="PT_B_1model_2y.t:cluster5.trees" logEvery="1000" mode="tree">
+            <log id="TreeWithMetaDataLogger.t:cluster5" spec="beast.evolution.tree.TreeWithMetaDataLogger" tree="@Tree.t:cluster5"/>
+      </logger>
+
+</run>
+
+</beast>
