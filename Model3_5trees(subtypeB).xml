@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<beast beautitemplate='Standard' beautistatus='' required="BDSKY v1.3.3" version="2.4"
+       namespace="beast.core
+                 :beast.evolution.alignment
+                 :beast.evolution.tree
+                 :beast.evolution.tree.coalescent
+                 :beast.core.util
+                 :beast.core.parameter
+                 :beast.evolution.nuc
+                 :beast.evolution.operators
+                 :beast.evolution.sitemodel
+                 :beast.evolution.substitutionmodel
+                 :beast.evolution.likelihood
+                 :beast.evolution.speciation">
+
+
+    <data
+id="BDSKY10_PT_B_1model_2y_cluster1"
+name="alignment">
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                    </data>
+<data
+id="BDSKY10_PT_B_1model_2y_cluster2"
+name="alignment">
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                    </data>
+<data
+id="BDSKY10_PT_B_1model_2y_cluster3"
+name="alignment">
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                    </data>
+<data
+id="BDSKY10_PT_B_1model_2y_cluster4"
+name="alignment">
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                    </data>
+<data
+id="BDSKY10_PT_B_1model_2y_cluster5"
+name="alignment">
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                        <sequence id="seqXXX" taxon="XXX" totalcount="4" value="ACTXXX"/>
+                    </data>
+
+
+    
+
+
+    
+
+
+    
+<map name="Uniform" >beast.math.distributions.Uniform</map>
+<map name="Exponential" >beast.math.distributions.Exponential</map>
+<map name="LogNormal" >beast.math.distributions.LogNormalDistributionModel</map>
+<map name="Normal" >beast.math.distributions.Normal</map>
+<map name="Beta" >beast.math.distributions.Beta</map>
+<map name="Gamma" >beast.math.distributions.Gamma</map>
+<map name="LaplaceDistribution" >beast.math.distributions.LaplaceDistribution</map>
+<map name="prior" >beast.math.distributions.Prior</map>
+<map name="InverseGamma" >beast.math.distributions.InverseGamma</map>
+<map name="OneOnX" >beast.math.distributions.OneOnX</map>
+
+
+<!-- 
+    Set sampling proportion to 0 before oldest sample
+
+      cluster1: 2001.0 - 2012.0 => oldest sample at 11
+      cluster2: 2001.0 - 2012.0 => oldest sample at 11
+      cluster3: 2001.0 - 2008.0 => oldest sample at 7
+      cluster4: 2001.0 - 2013.0 => oldest sample at 12
+      cluster5: 2001.0 - 2012.0 => oldest sample at 11
+-->
+<parameter id="samplingRateChangeTimes_cluster1" spec="RealParameter" value="0 11.0001"/>
+<parameter id="samplingRateChangeTimes_cluster2" spec="RealParameter" value="0 11.0001"/>
+<parameter id="samplingRateChangeTimes_cluster3" spec="RealParameter" value="0 7.0001"/>
+<parameter id="samplingRateChangeTimes_cluster4" spec="RealParameter" value="0 12.0001"/>
+<parameter id="samplingRateChangeTimes_cluster5" spec="RealParameter" value="0 11.0001"/>
+<function spec="Slice" id="samplingProportionSlice" arg="@samplingProportion" index="1" count="1"/>
+
+
+
+<run id="mcmc" spec="MCMC" chainLength="200000000">
+    <state id="state" storeEvery="5000">
+        <tree id="Tree.t:BDSKY10_PT_B_1model_2y_cluster1" name="stateNode">
+            <trait id="dateTrait.t:BDSKY10_PT_B_1model_2y_cluster1" spec="TraitSet" traitname="date">
+               XXX          
+
+  <taxa id="TaxonSet.BDSKY10_PT_B_1model_2y_cluster1" spec="TaxonSet">
+                    <alignment idref="BDSKY10_PT_B_1model_2y_cluster1"/>
+                </taxa>
+            </trait>
+            <taxonset idref="TaxonSet.BDSKY10_PT_B_1model_2y_cluster1"/>
+        </tree>
+        <tree id="Tree.t:BDSKY10_PT_B_1model_2y_cluster2" name="stateNode">
+            <trait id="dateTrait.t:BDSKY10_PT_B_1model_2y_cluster2" spec="TraitSet" traitname="date">
+                XXX               <taxa id="TaxonSet.BDSKY10_PT_B_1model_2y_cluster2" spec="TaxonSet">
+                    <alignment idref="BDSKY10_PT_B_1model_2y_cluster2"/>
+                </taxa>
+            </trait>
+            <taxonset idref="TaxonSet.BDSKY10_PT_B_1model_2y_cluster2"/>
+        </tree>
+        
+        <tree id="Tree.t:BDSKY10_PT_B_1model_2y_cluster3" name="stateNode">
+            <trait id="dateTrait.t:BDSKY10_PT_B_1model_2y_cluster3" spec="TraitSet" traitname="date">
+                XXX
+                              <taxa id="TaxonSet.BDSKY10_PT_B_1model_2y_cluster3" spec="TaxonSet">
+                    <alignment idref="BDSKY10_PT_B_1model_2y_cluster3"/>
+                </taxa>
+            </trait>
+            <taxonset idref="TaxonSet.BDSKY10_PT_B_1model_2y_cluster3"/>
+        </tree>
+        <tree id="Tree.t:BDSKY10_PT_B_1model_2y_cluster4" name="stateNode">
+            <trait id="dateTrait.t:BDSKY10_PT_B_1model_2y_cluster4" spec="TraitSet" traitname="date">
+               XXX
+                             <taxa id="TaxonSet.BDSKY10_PT_B_1model_2y_cluster4" spec="TaxonSet">
+                    <alignment idref="BDSKY10_PT_B_1model_2y_cluster4"/>
+                </taxa>
+            </trait>
+            <taxonset idref="TaxonSet.BDSKY10_PT_B_1model_2y_cluster4"/>
+        </tree>
+        <tree id="Tree.t:BDSKY10_PT_B_1model_2y_cluster5" name="stateNode">
+            <trait id="dateTrait.t:BDSKY10_PT_B_1model_2y_cluster5" spec="TraitSet" traitname="date">
+                XXX         
+
+   <taxa id="TaxonSet.BDSKY10_PT_B_1model_2y_cluster5" spec="TaxonSet">
+                    <alignment idref="BDSKY10_PT_B_1model_2y_cluster5"/>
+                </taxa>
+            </trait>
+            <taxonset idref="TaxonSet.BDSKY10_PT_B_1model_2y_cluster5"/>
+        </tree>
+
+        <!-- Assume all clusters have the same clockrate, kappa and frequencies -->
+        <parameter id="clockRate" name="stateNode">0.002</parameter>
+        <parameter id="kappa" lower="0.0" name="stateNode">2.0</parameter>
+    	<parameter id="freqParameter" dimension="4" lower="0.0" name="stateNode" upper="1.0">0.25</parameter>
+
+        <!-- Assume the same Re before and after the shift for each cluster -->
+        <parameter id="reproductiveNumber" dimension="2" lower="0.0" name="stateNode" upper="Infinity">2.0</parameter>
+        
+        <!-- Assume the same sampling proportion for each cluster -->
+        <parameter id="samplingProportion" lower="0.01" name="stateNode" upper="0.2">0 0.05</parameter>
+
+        <!-- Initialise the shift date to 2005 -->
+        <parameter id="reproductiveNumberShiftDate" name="stateNode" value="2005.0"/>
+
+        <!-- Independent origin times for each cluster -->
+        <parameter id="origin.t:BDSKY10_PT_B_1model_2y_cluster1" lower="0.0" name="stateNode" upper="100.0">50.0</parameter>
+        <parameter id="origin.t:BDSKY10_PT_B_1model_2y_cluster2" lower="0.0" name="stateNode" upper="100.0">50.0</parameter>
+        <parameter id="origin.t:BDSKY10_PT_B_1model_2y_cluster3" lower="0.0" name="stateNode" upper="100.0">50.0</parameter>
+        <parameter id="origin.t:BDSKY10_PT_B_1model_2y_cluster4" lower="0.0" name="stateNode" upper="100.0">50.0</parameter>
+        <parameter id="origin.t:BDSKY10_PT_B_1model_2y_cluster5" lower="0.0" name="stateNode" upper="100.0">50.0</parameter>
+  </state>
+
+
+    <init id="RandomTree.t:BDSKY10_PT_B_1model_2y_cluster1" spec="RandomTree" estimate="false" initial="@Tree.t:BDSKY10_PT_B_1model_2y_cluster1" taxa="@BDSKY10_PT_B_1model_2y_cluster1">
+        <populationModel id="ConstantPopulation0.t:BDSKY10_PT_B_1model_2y_cluster1" spec="ConstantPopulation">
+            <parameter id="randomPopSize.t:BDSKY10_PT_B_1model_2y_cluster1" name="popSize">1.0</parameter>
+        </populationModel>
+    </init>
+
+    <init id="RandomTree.t:BDSKY10_PT_B_1model_2y_cluster2" spec="RandomTree" estimate="false" initial="@Tree.t:BDSKY10_PT_B_1model_2y_cluster2" taxa="@BDSKY10_PT_B_1model_2y_cluster2">
+        <populationModel id="ConstantPopulation0.t:BDSKY10_PT_B_1model_2y_cluster2" spec="ConstantPopulation">
+            <parameter id="randomPopSize.t:BDSKY10_PT_B_1model_2y_cluster2" name="popSize">1.0</parameter>
+        </populationModel>
+    </init>
+
+    <init id="RandomTree.t:BDSKY10_PT_B_1model_2y_cluster3" spec="RandomTree" estimate="false" initial="@Tree.t:BDSKY10_PT_B_1model_2y_cluster3" taxa="@BDSKY10_PT_B_1model_2y_cluster3">
+        <populationModel id="ConstantPopulation0.t:BDSKY10_PT_B_1model_2y_cluster3" spec="ConstantPopulation">
+            <parameter id="randomPopSize.t:BDSKY10_PT_B_1model_2y_cluster3" name="popSize">1.0</parameter>
+        </populationModel>
+    </init>
+
+    <init id="RandomTree.t:BDSKY10_PT_B_1model_2y_cluster4" spec="RandomTree" estimate="false" initial="@Tree.t:BDSKY10_PT_B_1model_2y_cluster4" taxa="@BDSKY10_PT_B_1model_2y_cluster4">
+        <populationModel id="ConstantPopulation0.t:BDSKY10_PT_B_1model_2y_cluster4" spec="ConstantPopulation">
+            <parameter id="randomPopSize.t:BDSKY10_PT_B_1model_2y_cluster4" name="popSize">1.0</parameter>
+        </populationModel>
+    </init>
+
+    <init id="RandomTree.t:BDSKY10_PT_B_1model_2y_cluster5" spec="RandomTree" estimate="false" initial="@Tree.t:BDSKY10_PT_B_1model_2y_cluster5" taxa="@BDSKY10_PT_B_1model_2y_cluster5">
+        <populationModel id="ConstantPopulation0.t:BDSKY10_PT_B_1model_2y_cluster5" spec="ConstantPopulation">
+            <parameter id="randomPopSize.t:BDSKY10_PT_B_1model_2y_cluster5" name="popSize">1.0</parameter>
+        </populationModel>
+    </init>
+
+    <distribution id="posterior" spec="util.CompoundDistribution">
+        <distribution id="prior" spec="util.CompoundDistribution">            
+
+            <distribution id="BirthDeathSkySerial.t:BDSKY10_PT_B_1model_2y_cluster1" spec="BirthDeathSkylineModel" 
+                          origin="@origin.t:BDSKY10_PT_B_1model_2y_cluster1" 
+                          reproductiveNumber="@reproductiveNumber" 
+                          samplingProportion="@samplingProportion" 
+                          samplingRateChangeTimes="@samplingRateChangeTimes_cluster1"
+                          tree="@Tree.t:BDSKY10_PT_B_1model_2y_cluster1">
+                <birthRateChangeTimes spec="TreeSlicer" id="TreeSlice_cluster1" type="dates" tree="@Tree.t:BDSKY10_PT_B_1model_2y_cluster1" 
+                                      dates="@reproductiveNumberShiftDate"/>
+                <reverseTimeArrays id="reverseTimeArrays" spec="BooleanParameter" value="true false true false false"/>
+                <becomeUninfectiousRate id="becomeUninfectiousRate" spec="RealParameter" value="0.5"/>
+            </distribution>
+            <distribution id="BirthDeathSkySerial.t:BDSKY10_PT_B_1model_2y_cluster2" spec="BirthDeathSkylineModel" 
+                          becomeUninfectiousRate="@becomeUninfectiousRate" 
+                          origin="@origin.t:BDSKY10_PT_B_1model_2y_cluster2" 
+                          reproductiveNumber="@reproductiveNumber" 
+                          samplingProportion="@samplingProportion" 
+                          samplingRateChangeTimes="@samplingRateChangeTimes_cluster2"
+                          reverseTimeArrays="@reverseTimeArrays"
+                          tree="@Tree.t:BDSKY10_PT_B_1model_2y_cluster2">
+                <birthRateChangeTimes spec="TreeSlicer" id="TreeSlice_cluster2" type="dates" tree="@Tree.t:BDSKY10_PT_B_1model_2y_cluster2" 
+                                      dates="@reproductiveNumberShiftDate"/>
+            </distribution>
+            <distribution id="BirthDeathSkySerial.t:BDSKY10_PT_B_1model_2y_cluster3" spec="BirthDeathSkylineModel" 
+                          becomeUninfectiousRate="@becomeUninfectiousRate" 
+                          origin="@origin.t:BDSKY10_PT_B_1model_2y_cluster3" 
+                          reproductiveNumber="@reproductiveNumber" 
+                          samplingProportion="@samplingProportion" 
+                          samplingRateChangeTimes="@samplingRateChangeTimes_cluster3"
+                          reverseTimeArrays="@reverseTimeArrays"
+                          tree="@Tree.t:BDSKY10_PT_B_1model_2y_cluster3">
+                <birthRateChangeTimes spec="TreeSlicer" id="TreeSlice_cluster3" type="dates" tree="@Tree.t:BDSKY10_PT_B_1model_2y_cluster3" 
+                                      dates="@reproductiveNumberShiftDate"/>
+            </distribution>
+            <distribution id="BirthDeathSkySerial.t:BDSKY10_PT_B_1model_2y_cluster4" spec="BirthDeathSkylineModel" 
+                          becomeUninfectiousRate="@becomeUninfectiousRate" 
+                          origin="@origin.t:BDSKY10_PT_B_1model_2y_cluster4" 
+                          reproductiveNumber="@reproductiveNumber" 
+                          samplingProportion="@samplingProportion" 
+                          samplingRateChangeTimes="@samplingRateChangeTimes_cluster4"
+                          reverseTimeArrays="@reverseTimeArrays"
+                          tree="@Tree.t:BDSKY10_PT_B_1model_2y_cluster4">
+                <birthRateChangeTimes spec="TreeSlicer" id="TreeSlice_cluster4" type="dates" tree="@Tree.t:BDSKY10_PT_B_1model_2y_cluster4" 
+                                      dates="@reproductiveNumberShiftDate"/>
+            </distribution>
+            <distribution id="BirthDeathSkySerial.t:BDSKY10_PT_B_1model_2y_cluster5" spec="BirthDeathSkylineModel" 
+                          becomeUninfectiousRate="@becomeUninfectiousRate" 
+                          origin="@origin.t:BDSKY10_PT_B_1model_2y_cluster5" 
+                          reproductiveNumber="@reproductiveNumber" 
+                          samplingProportion="@samplingProportion" 
+                          samplingRateChangeTimes="@samplingRateChangeTimes_cluster5"
+                          reverseTimeArrays="@reverseTimeArrays"
+                          tree="@Tree.t:BDSKY10_PT_B_1model_2y_cluster5">
+                <birthRateChangeTimes spec="TreeSlicer" id="TreeSlice_cluster5" type="dates" tree="@Tree.t:BDSKY10_PT_B_1model_2y_cluster5" 
+                                      dates="@reproductiveNumberShiftDate"/>
+            </distribution>
+        
+            <prior id="ClockPrior" name="distribution" x="@clockRate">
+                      <Uniform id="Uniform.0" name="distr" upper="0.00351" lower="0.00174"/>
+            </prior>
+            
+            <prior id="KappaPrior" name="distribution" x="@kappa">
+                <LogNormal id="LogNormalDistributionModel.0" name="distr">
+                    <parameter id="RealParameter.5" estimate="false" name="M">1.0</parameter>
+                    <parameter id="RealParameter.6" estimate="false" name="S">1.25</parameter>
+                </LogNormal>
+            </prior>
+
+            <!-- Assume that the shift is between 1992 and 2007 -->
+            <prior id="reproductiveNumberShiftDatePrior" name="distribution" x="@reproductiveNumberShiftDate">
+                <Uniform name="distr" lower="1992" upper="2007"/>
+            </prior>
+            
+            <prior id="originPrior.t:BDSKY10_PT_B_1model_2y_cluster1" name="distribution" x="@origin.t:BDSKY10_PT_B_1model_2y_cluster1">
+                <Uniform id="Uniform.15" name="distr" upper="100.0"/>
+            </prior>
+            <prior id="originPrior.t:BDSKY10_PT_B_1model_2y_cluster2" name="distribution" x="@origin.t:BDSKY10_PT_B_1model_2y_cluster2">
+                <Uniform id="Uniform.16" name="distr" upper="100.0"/>
+            </prior>
+            <prior id="originPrior.t:BDSKY10_PT_B_1model_2y_cluster3" name="distribution" x="@origin.t:BDSKY10_PT_B_1model_2y_cluster3">
+                <Uniform id="Uniform.17" name="distr" upper="100.0"/>
+            </prior>
+            <prior id="originPrior.t:BDSKY10_PT_B_1model_2y_cluster4" name="distribution" x="@origin.t:BDSKY10_PT_B_1model_2y_cluster4">
+                <Uniform id="Uniform.18" name="distr" upper="100.0"/>
+            </prior>
+            <prior id="originPrior.t:BDSKY10_PT_B_1model_2y_cluster5" name="distribution" x="@origin.t:BDSKY10_PT_B_1model_2y_cluster5">
+                <Uniform id="Uniform.19" name="distr" upper="100.0"/>
+            </prior>
+           
+            <prior id="reproductiveNumberPrior" name="distribution" x="@reproductiveNumber">
+                <LogNormal id="LogNormalDistributionModel.2" name="distr">
+                    <parameter id="RealParameter.11" estimate="false" name="M">1.0</parameter>
+                    <parameter id="RealParameter.12" estimate="false" name="S">1.25</parameter>
+                </LogNormal>
+            </prior>
+            
+            <prior id="samplingProportionPrior" name="distribution" x="@samplingProportionSlice">
+                <Beta id="Beta.0" name="distr">
+                    <parameter id="RealParameter.7" estimate="false" name="alpha">1.0</parameter>
+                    <parameter id="RealParameter.8" estimate="false" name="beta">10.0</parameter>
+                </Beta>
+            </prior>
+        </distribution>
+        
+        <distribution id="likelihood" spec="util.CompoundDistribution" useThreads="true">
+            <distribution id="treeLikelihood.BDSKY10_PT_B_1model_2y_cluster1" spec="ThreadedTreeLikelihood" data="@BDSKY10_PT_B_1model_2y_cluster1" tree="@Tree.t:BDSKY10_PT_B_1model_2y_cluster1">
+                <siteModel id="SiteModel.s:BDSKY10_PT_B_1model_2y_cluster1" spec="SiteModel">
+                    <parameter id="mutationRate.s:BDSKY10_PT_B_1model_2y_cluster1" estimate="false" name="mutationRate">1.0</parameter>
+                    <parameter id="gammaShape.s:BDSKY10_PT_B_1model_2y_cluster1" estimate="false" name="shape">1.0</parameter>
+                    <parameter id="proportionInvariant.s:BDSKY10_PT_B_1model_2y_cluster1" estimate="false" lower="0.0" name="proportionInvariant" upper="1.0">0.0</parameter>
+                    <substModel id="hky" spec="HKY" kappa="@kappa">
+                        <frequencies id="estimatedFreqs" spec="Frequencies" frequencies="@freqParameter"/>
+                    </substModel>
+                </siteModel>
+                <branchRateModel id="StrictClock" spec="beast.evolution.branchratemodel.StrictClockModel" clock.rate="@clockRate"/>
+            </distribution>
+            
+            <distribution id="treeLikelihood.BDSKY10_PT_B_1model_2y_cluster2" spec="ThreadedTreeLikelihood" data="@BDSKY10_PT_B_1model_2y_cluster2" tree="@Tree.t:BDSKY10_PT_B_1model_2y_cluster2" branchRateModel="@StrictClock">
+                <siteModel id="SiteModel.s:BDSKY10_PT_B_1model_2y_cluster2" spec="SiteModel" substModel="@hky">
+                    <parameter id="mutationRate.s:BDSKY10_PT_B_1model_2y_cluster2" estimate="false" name="mutationRate">1.0</parameter>
+                    <parameter id="gammaShape.s:BDSKY10_PT_B_1model_2y_cluster2" estimate="false" name="shape">1.0</parameter>
+                    <parameter id="proportionInvariant.s:BDSKY10_PT_B_1model_2y_cluster2" estimate="false" lower="0.0" name="proportionInvariant" upper="1.0">0.0</parameter>
+                </siteModel>
+            </distribution>
+            <distribution id="treeLikelihood.BDSKY10_PT_B_1model_2y_cluster3" spec="ThreadedTreeLikelihood" data="@BDSKY10_PT_B_1model_2y_cluster3" tree="@Tree.t:BDSKY10_PT_B_1model_2y_cluster3" branchRateModel="@StrictClock">
+                <siteModel id="SiteModel.s:BDSKY10_PT_B_1model_2y_cluster3" spec="SiteModel" substModel="@hky">
+                    <parameter id="mutationRate.s:BDSKY10_PT_B_1model_2y_cluster3" estimate="false" name="mutationRate">1.0</parameter>
+                    <parameter id="gammaShape.s:BDSKY10_PT_B_1model_2y_cluster3" estimate="false" name="shape">1.0</parameter>
+                    <parameter id="proportionInvariant.s:BDSKY10_PT_B_1model_2y_cluster3" estimate="false" lower="0.0" name="proportionInvariant" upper="1.0">0.0</parameter>
+                </siteModel>
+            </distribution>
+            <distribution id="treeLikelihood.BDSKY10_PT_B_1model_2y_cluster4" spec="ThreadedTreeLikelihood" data="@BDSKY10_PT_B_1model_2y_cluster4" tree="@Tree.t:BDSKY10_PT_B_1model_2y_cluster4" branchRateModel="@StrictClock">
+                <siteModel id="SiteModel.s:BDSKY10_PT_B_1model_2y_cluster4" spec="SiteModel" substModel="@hky">
+                    <parameter id="mutationRate.s:BDSKY10_PT_B_1model_2y_cluster4" estimate="false" name="mutationRate">1.0</parameter>
+                    <parameter id="gammaShape.s:BDSKY10_PT_B_1model_2y_cluster4" estimate="false" name="shape">1.0</parameter>
+                    <parameter id="proportionInvariant.s:BDSKY10_PT_B_1model_2y_cluster4" estimate="false" lower="0.0" name="proportionInvariant" upper="1.0">0.0</parameter>
+                </siteModel>
+            </distribution>
+            <distribution id="treeLikelihood.BDSKY10_PT_B_1model_2y_cluster5" spec="ThreadedTreeLikelihood" data="@BDSKY10_PT_B_1model_2y_cluster5" tree="@Tree.t:BDSKY10_PT_B_1model_2y_cluster5" branchRateModel="@StrictClock">
+                <siteModel id="SiteModel.s:BDSKY10_PT_B_1model_2y_cluster5" spec="SiteModel" substModel="@hky">
+                    <parameter id="mutationRate.s:BDSKY10_PT_B_1model_2y_cluster5" estimate="false" name="mutationRate">1.0</parameter>
+                    <parameter id="gammaShape.s:BDSKY10_PT_B_1model_2y_cluster5" estimate="false" name="shape">1.0</parameter>
+                    <parameter id="proportionInvariant.s:BDSKY10_PT_B_1model_2y_cluster5" estimate="false" lower="0.0" name="proportionInvariant" upper="1.0">0.0</parameter>
+                </siteModel>
+            </distribution>
+        </distribution>
+ </distribution>
+
+    <operator id="StrictClockRateScaler" spec="ScaleOperator" parameter="@clockRate" scaleFactor="0.75" weight="3.0"/>
+
+	<operator id="strictClockUpDownOperator.c:BDSKY10_PT_B_1model_2y_cluster1" spec="UpDownOperator" scaleFactor="0.75" weight="3.0">
+        <up idref="clockRate"/>
+        <down idref="Tree.t:BDSKY10_PT_B_1model_2y_cluster1"/>
+    </operator>
+    
+    <operator id="strictClockUpDownOperator.c:BDSKY10_PT_B_1model_2y_cluster2" spec="UpDownOperator" scaleFactor="0.75" weight="3.0">
+        <up idref="clockRate"/>
+        <down idref="Tree.t:BDSKY10_PT_B_1model_2y_cluster2"/>
+    </operator>
+
+    <operator id="strictClockUpDownOperator.c:BDSKY10_PT_B_1model_2y_cluster3" spec="UpDownOperator" scaleFactor="0.75" weight="3.0">
+        <up idref="clockRate"/>
+        <down idref="Tree.t:BDSKY10_PT_B_1model_2y_cluster3"/>
+    </operator>
+
+    <operator id="strictClockUpDownOperator.c:BDSKY10_PT_B_1model_2y_cluster4" spec="UpDownOperator" scaleFactor="0.75" weight="3.0">
+        <up idref="clockRate"/>
+        <down idref="Tree.t:BDSKY10_PT_B_1model_2y_cluster4"/>
+    </operator>
+
+    <operator id="strictClockUpDownOperator.c:BDSKY10_PT_B_1model_2y_cluster5" spec="UpDownOperator" scaleFactor="0.75" weight="3.0">
+        <up idref="clockRate"/>
+        <down idref="Tree.t:BDSKY10_PT_B_1model_2y_cluster5"/>
+    </operator>
+
+    <operator id="KappaScaler" spec="ScaleOperator" parameter="@kappa" scaleFactor="0.5" weight="0.1"/>
+
+    <operator id="reproductiveNumberScaler" spec="ScaleOperator" parameter="@reproductiveNumber" scaleFactor="0.75" weight="10.0"/>
+    <operator id="samplingScaler" spec="ScaleOperator" parameter="@samplingProportion" scaleFactor="0.75" weight="2.0"/>
+
+    <operator id="reproductiveNumberDateScaler" spec="ScaleOperator" parameter="@reproductiveNumberShiftDate" scaleFactor="0.75" weight="10.0"/>
+
+    <operator id="BDSKY_serialtreeScaler.t:BDSKY10_PT_B_1model_2y_cluster1" spec="ScaleOperator" scaleFactor="0.75" tree="@Tree.t:BDSKY10_PT_B_1model_2y_cluster1" weight="3.0"/>
+    <operator id="BDSKY_serialtreeRootScaler.t:BDSKY10_PT_B_1model_2y_cluster1" spec="ScaleOperator" rootOnly="true" scaleFactor="0.75" tree="@Tree.t:BDSKY10_PT_B_1model_2y_cluster1" weight="3.0"/>
+    <operator id="BDSKY_serialUniformOperator.t:BDSKY10_PT_B_1model_2y_cluster1" spec="Uniform" tree="@Tree.t:BDSKY10_PT_B_1model_2y_cluster1" weight="30.0"/>
+    <operator id="BDSKY_serialSubtreeSlide.t:BDSKY10_PT_B_1model_2y_cluster1" spec="SubtreeSlide" tree="@Tree.t:BDSKY10_PT_B_1model_2y_cluster1" weight="15.0"/>
+    <operator id="BDSKY_serialnarrow.t:BDSKY10_PT_B_1model_2y_cluster1" spec="Exchange" tree="@Tree.t:BDSKY10_PT_B_1model_2y_cluster1" weight="15.0"/>
+    <operator id="BDSKY_serialwide.t:BDSKY10_PT_B_1model_2y_cluster1" spec="Exchange" isNarrow="false" tree="@Tree.t:BDSKY10_PT_B_1model_2y_cluster1" weight="3.0"/>
+    <operator id="BDSKY_serialWilsonBalding.t:BDSKY10_PT_B_1model_2y_cluster1" spec="WilsonBalding" tree="@Tree.t:BDSKY10_PT_B_1model_2y_cluster1" weight="3.0"/>
+    <operator id="origScaler.t:BDSKY10_PT_B_1model_2y_cluster1" spec="ScaleOperator" parameter="@origin.t:BDSKY10_PT_B_1model_2y_cluster1" scaleFactor="0.75" weight="1.0"/>
+
+    <operator id="BDSKY_serialtreeScaler.t:BDSKY10_PT_B_1model_2y_cluster2" spec="ScaleOperator" scaleFactor="0.5" tree="@Tree.t:BDSKY10_PT_B_1model_2y_cluster2" weight="3.0"/>
+    <operator id="BDSKY_serialtreeRootScaler.t:BDSKY10_PT_B_1model_2y_cluster2" spec="ScaleOperator" rootOnly="true" scaleFactor="0.5" tree="@Tree.t:BDSKY10_PT_B_1model_2y_cluster2" weight="3.0"/>
+    <operator id="BDSKY_serialUniformOperator.t:BDSKY10_PT_B_1model_2y_cluster2" spec="Uniform" tree="@Tree.t:BDSKY10_PT_B_1model_2y_cluster2" weight="30.0"/>
+    <operator id="BDSKY_serialSubtreeSlide.t:BDSKY10_PT_B_1model_2y_cluster2" spec="SubtreeSlide" tree="@Tree.t:BDSKY10_PT_B_1model_2y_cluster2" weight="15.0"/>
+    <operator id="BDSKY_serialnarrow.t:BDSKY10_PT_B_1model_2y_cluster2" spec="Exchange" tree="@Tree.t:BDSKY10_PT_B_1model_2y_cluster2" weight="15.0"/>
+    <operator id="BDSKY_serialwide.t:BDSKY10_PT_B_1model_2y_cluster2" spec="Exchange" isNarrow="false" tree="@Tree.t:BDSKY10_PT_B_1model_2y_cluster2" weight="3.0"/>
+    <operator id="BDSKY_serialWilsonBalding.t:BDSKY10_PT_B_1model_2y_cluster2" spec="WilsonBalding" tree="@Tree.t:BDSKY10_PT_B_1model_2y_cluster2" weight="3.0"/>
+    <operator id="origScaler.t:BDSKY10_PT_B_1model_2y_cluster2" spec="ScaleOperator" parameter="@origin.t:BDSKY10_PT_B_1model_2y_cluster2" scaleFactor="0.75" weight="1.0"/>
+
+    <operator id="BDSKY_serialtreeScaler.t:BDSKY10_PT_B_1model_2y_cluster3" spec="ScaleOperator" scaleFactor="0.5" tree="@Tree.t:BDSKY10_PT_B_1model_2y_cluster3" weight="3.0"/>
+    <operator id="BDSKY_serialtreeRootScaler.t:BDSKY10_PT_B_1model_2y_cluster3" spec="ScaleOperator" rootOnly="true" scaleFactor="0.5" tree="@Tree.t:BDSKY10_PT_B_1model_2y_cluster3" weight="3.0"/>
+    <operator id="BDSKY_serialUniformOperator.t:BDSKY10_PT_B_1model_2y_cluster3" spec="Uniform" tree="@Tree.t:BDSKY10_PT_B_1model_2y_cluster3" weight="30.0"/>
+    <operator id="BDSKY_serialSubtreeSlide.t:BDSKY10_PT_B_1model_2y_cluster3" spec="SubtreeSlide" tree="@Tree.t:BDSKY10_PT_B_1model_2y_cluster3" weight="15.0"/>
+    <operator id="BDSKY_serialnarrow.t:BDSKY10_PT_B_1model_2y_cluster3" spec="Exchange" tree="@Tree.t:BDSKY10_PT_B_1model_2y_cluster3" weight="15.0"/>
+    <operator id="BDSKY_serialwide.t:BDSKY10_PT_B_1model_2y_cluster3" spec="Exchange" isNarrow="false" tree="@Tree.t:BDSKY10_PT_B_1model_2y_cluster3" weight="3.0"/>
+    <operator id="BDSKY_serialWilsonBalding.t:BDSKY10_PT_B_1model_2y_cluster3" spec="WilsonBalding" tree="@Tree.t:BDSKY10_PT_B_1model_2y_cluster3" weight="3.0"/>
+    <operator id="origScaler.t:BDSKY10_PT_B_1model_2y_cluster3" spec="ScaleOperator" parameter="@origin.t:BDSKY10_PT_B_1model_2y_cluster3" scaleFactor="0.75" weight="1.0"/>
+      
+    <operator id="BDSKY_serialtreeScaler.t:BDSKY10_PT_B_1model_2y_cluster4" spec="ScaleOperator" scaleFactor="0.5" tree="@Tree.t:BDSKY10_PT_B_1model_2y_cluster4" weight="3.0"/>
+	<operator id="BDSKY_serialtreeRootScaler.t:BDSKY10_PT_B_1model_2y_cluster4" spec="ScaleOperator" rootOnly="true" scaleFactor="0.5" tree="@Tree.t:BDSKY10_PT_B_1model_2y_cluster4" weight="3.0"/>
+    <operator id="BDSKY_serialUniformOperator.t:BDSKY10_PT_B_1model_2y_cluster4" spec="Uniform" tree="@Tree.t:BDSKY10_PT_B_1model_2y_cluster4" weight="30.0"/>
+    <operator id="BDSKY_serialSubtreeSlide.t:BDSKY10_PT_B_1model_2y_cluster4" spec="SubtreeSlide" tree="@Tree.t:BDSKY10_PT_B_1model_2y_cluster4" weight="15.0"/>
+    <operator id="BDSKY_serialnarrow.t:BDSKY10_PT_B_1model_2y_cluster4" spec="Exchange" tree="@Tree.t:BDSKY10_PT_B_1model_2y_cluster4" weight="15.0"/>
+    <operator id="BDSKY_serialwide.t:BDSKY10_PT_B_1model_2y_cluster4" spec="Exchange" isNarrow="false" tree="@Tree.t:BDSKY10_PT_B_1model_2y_cluster4" weight="3.0"/>
+    <operator id="BDSKY_serialWilsonBalding.t:BDSKY10_PT_B_1model_2y_cluster4" spec="WilsonBalding" tree="@Tree.t:BDSKY10_PT_B_1model_2y_cluster4" weight="3.0"/>
+    <operator id="origScaler.t:BDSKY10_PT_B_1model_2y_cluster4" spec="ScaleOperator" parameter="@origin.t:BDSKY10_PT_B_1model_2y_cluster4" scaleFactor="0.75" weight="1.0"/>
+
+    <operator id="BDSKY_serialtreeScaler.t:BDSKY10_PT_B_1model_2y_cluster5" spec="ScaleOperator" scaleFactor="0.5" tree="@Tree.t:BDSKY10_PT_B_1model_2y_cluster5" weight="3.0"/>
+    <operator id="BDSKY_serialtreeRootScaler.t:BDSKY10_PT_B_1model_2y_cluster5" spec="ScaleOperator" rootOnly="true" scaleFactor="0.5" tree="@Tree.t:BDSKY10_PT_B_1model_2y_cluster5" weight="3.0"/>
+    <operator id="BDSKY_serialUniformOperator.t:BDSKY10_PT_B_1model_2y_cluster5" spec="Uniform" tree="@Tree.t:BDSKY10_PT_B_1model_2y_cluster5" weight="30.0"/>
+    <operator id="BDSKY_serialSubtreeSlide.t:BDSKY10_PT_B_1model_2y_cluster5" spec="SubtreeSlide" tree="@Tree.t:BDSKY10_PT_B_1model_2y_cluster5" weight="15.0"/>
+    <operator id="BDSKY_serialnarrow.t:BDSKY10_PT_B_1model_2y_cluster5" spec="Exchange" tree="@Tree.t:BDSKY10_PT_B_1model_2y_cluster5" weight="15.0"/>
+    <operator id="BDSKY_serialwide.t:BDSKY10_PT_B_1model_2y_cluster5" spec="Exchange" isNarrow="false" tree="@Tree.t:BDSKY10_PT_B_1model_2y_cluster5" weight="3.0"/>
+    <operator id="BDSKY_serialWilsonBalding.t:BDSKY10_PT_B_1model_2y_cluster5" spec="WilsonBalding" tree="@Tree.t:BDSKY10_PT_B_1model_2y_cluster5" weight="3.0"/>
+    <operator id="origScaler.t:BDSKY10_PT_B_1model_2y_cluster5" spec="ScaleOperator" parameter="@origin.t:BDSKY10_PT_B_1model_2y_cluster5" scaleFactor="0.75" weight="1.0"/>
+
+    <operator id="FrequenciesExchanger" spec="DeltaExchangeOperator" delta="0.01" weight="0.1">
+        <parameter idref="freqParameter"/>
+    </operator>
+
+    <logger id="tracelog" fileName="bdsky_treeslicer_model1c_$(seed).log" logEvery="10000" model="@posterior" sanitiseHeaders="true" sort="smart">
+        <log idref="posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+
+        <log idref="treeLikelihood.BDSKY10_PT_B_1model_2y_cluster1"/>
+        <log idref="treeLikelihood.BDSKY10_PT_B_1model_2y_cluster2"/>
+        <log idref="treeLikelihood.BDSKY10_PT_B_1model_2y_cluster3"/>
+        <log idref="treeLikelihood.BDSKY10_PT_B_1model_2y_cluster4"/>
+        <log idref="treeLikelihood.BDSKY10_PT_B_1model_2y_cluster5"/>
+
+        <log idref="BirthDeathSkySerial.t:BDSKY10_PT_B_1model_2y_cluster1"/>
+        <log idref="BirthDeathSkySerial.t:BDSKY10_PT_B_1model_2y_cluster2"/>
+        <log idref="BirthDeathSkySerial.t:BDSKY10_PT_B_1model_2y_cluster3"/>
+        <log idref="BirthDeathSkySerial.t:BDSKY10_PT_B_1model_2y_cluster4"/>
+        <log idref="BirthDeathSkySerial.t:BDSKY10_PT_B_1model_2y_cluster5"/>
+
+        <log idref="origin.t:BDSKY10_PT_B_1model_2y_cluster1"/>
+        <log idref="origin.t:BDSKY10_PT_B_1model_2y_cluster2"/>
+        <log idref="origin.t:BDSKY10_PT_B_1model_2y_cluster3"/>    
+        <log idref="origin.t:BDSKY10_PT_B_1model_2y_cluster4"/>        
+        <log idref="origin.t:BDSKY10_PT_B_1model_2y_cluster5"/>
+
+        <log id="TreeHeight.t:BDSKY10_PT_B_1model_2y_cluster1" spec="TreeHeightLogger" tree="@Tree.t:BDSKY10_PT_B_1model_2y_cluster1"/>        
+        <log id="TreeHeight.t:BDSKY10_PT_B_1model_2y_cluster2" spec="TreeHeightLogger" tree="@Tree.t:BDSKY10_PT_B_1model_2y_cluster2"/>                
+        <log id="TreeHeight.t:BDSKY10_PT_B_1model_2y_cluster3" spec="TreeHeightLogger" tree="@Tree.t:BDSKY10_PT_B_1model_2y_cluster3"/>        
+        <log id="TreeHeight.t:BDSKY10_PT_B_1model_2y_cluster4" spec="TreeHeightLogger" tree="@Tree.t:BDSKY10_PT_B_1model_2y_cluster4"/>        
+        <log id="TreeHeight.t:BDSKY10_PT_B_1model_2y_cluster5" spec="TreeHeightLogger" tree="@Tree.t:BDSKY10_PT_B_1model_2y_cluster5"/>
+        
+        <log idref="kappa"/>
+        <log idref="freqParameter"/>
+        <log idref="clockRate"/>
+
+        <log idref="samplingProportion"/>
+        <log idref="becomeUninfectiousRate"/>
+        <log idref="reproductiveNumber"/>
+
+        <log idref="reproductiveNumberShiftDate"/>
+        
+        <!--log idref="TreeSlice_cluster1"/>
+        <log idref="TreeSlice_cluster2"/>
+        <log idref="TreeSlice_cluster3"/>
+        <log idref="TreeSlice_cluster4"/>
+        <log idref="TreeSlice_cluster5"/-->
+
+        <log id="birth" spec="beast.math.statistic.RPNcalculator" expression="reproductiveNumber becomeUninfectiousRate *">
+            <parameter idref="becomeUninfectiousRate"/>
+            <parameter idref="reproductiveNumber"/>
+        </log>
+        <log id="death" spec="beast.math.statistic.RPNcalculator" expression="becomeUninfectiousRate 1 samplingProportion - *">
+            <parameter idref="becomeUninfectiousRate"/>
+            <parameter idref="samplingProportion"/>
+        </log>
+        <log id="sampling" spec="beast.math.statistic.RPNcalculator" expression="becomeUninfectiousRate samplingProportion *">
+            <parameter idref="becomeUninfectiousRate"/>
+            <parameter idref="samplingProportion"/>
+        </log>
+    </logger>
+
+    <logger id="screenlog" logEvery="10000">
+        <log idref="posterior"/>
+        <log id="ESS.0" spec="util.ESS" arg="@posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+    </logger>
+
+    <logger id="treelog.t:BDSKY2_PT_B_1model_2y_cluster1" fileName="$(tree)_$(seed).trees" logEvery="10000" mode="tree">
+        <log id="TreeWithMetaDataLogger.t:bdsky_treeslicer_model1c_cluster1" spec="TreeWithMetaDataLogger" tree="@Tree.t:BDSKY10_PT_B_1model_2y_cluster1"/>
+    </logger>
+
+    <logger id="treelog.t:BDSKY2_PT_B_1model_2y_cluster2" fileName="$(tree)_$(seed).trees" logEvery="10000" mode="tree">
+        <log id="TreeWithMetaDataLogger.t:bdsky_treeslicer_model1c_cluster2" spec="TreeWithMetaDataLogger" tree="@Tree.t:BDSKY10_PT_B_1model_2y_cluster2"/>
+    </logger>
+
+    <logger id="treelog.t:BDSKY2_PT_B_1model_2y_cluster3" fileName="$(tree)_$(seed).trees" logEvery="10000" mode="tree">
+        <log id="TreeWithMetaDataLogger.t:bdsky_treeslicer_model1c_cluster3" spec="TreeWithMetaDataLogger" tree="@Tree.t:BDSKY10_PT_B_1model_2y_cluster3"/>
+    </logger>
+
+    <logger id="treelog.t:BDSKY2_PT_B_1model_2y_cluster4" fileName="$(tree)_$(seed).trees" logEvery="10000" mode="tree">
+        <log id="TreeWithMetaDataLogger.t:bdsky_treeslicer_model1c_cluster4" spec="TreeWithMetaDataLogger" tree="@Tree.t:BDSKY10_PT_B_1model_2y_cluster4"/>
+    </logger>
+
+    <logger id="treelog.t:BDSKY2_PT_B_1model_2y_cluster5" fileName="$(tree)_$(seed).trees" logEvery="10000" mode="tree">
+        <log id="TreeWithMetaDataLogger.t:bdsky_treeslicer_model1c_cluster5" spec="TreeWithMetaDataLogger" tree="@Tree.t:BDSKY10_PT_B_1model_2y_cluster5"/>
+    </logger>
+
+</run>
+
+</beast>
