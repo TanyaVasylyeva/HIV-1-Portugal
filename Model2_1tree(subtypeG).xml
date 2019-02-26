@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<beast beautitemplate='Standard' beautistatus='' required="BDSKY v1.3.3" version="2.4"
+       namespace="beast.core
+                 :beast.evolution.alignment
+                 :beast.evolution.tree
+                 :beast.evolution.tree.coalescent
+                 :beast.core.util
+                 :beast.core.parameter
+                 :beast.evolution.nuc
+                 :beast.evolution.operators
+                 :beast.evolution.sitemodel
+                 :beast.evolution.substitutionmodel
+                 :beast.evolution.likelihood
+                 :beast.evolution.speciation">
+
+    <data
+id="BDSKY10_PT_G_2y"
+name="alignment">
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                        <sequence id="seq_XXX" taxon="XXX" totalcount="4" value="CCTXXX"/>
+                    </data>
+
+
+
+    
+
+
+    
+<map name="Uniform" >beast.math.distributions.Uniform</map>
+<map name="Exponential" >beast.math.distributions.Exponential</map>
+<map name="LogNormal" >beast.math.distributions.LogNormalDistributionModel</map>
+<map name="Normal" >beast.math.distributions.Normal</map>
+<map name="Beta" >beast.math.distributions.Beta</map>
+<map name="Gamma" >beast.math.distributions.Gamma</map>
+<map name="LaplaceDistribution" >beast.math.distributions.LaplaceDistribution</map>
+<map name="prior" >beast.math.distributions.Prior</map>
+<map name="InverseGamma" >beast.math.distributions.InverseGamma</map>
+<map name="OneOnX" >beast.math.distributions.OneOnX</map>
+
+<!-- 
+    Set sampling proportion to 0 before oldest sample
+
+    2001.0 - 2013.0 => oldest sample at 12 
+-->
+<parameter id="samplingRateChangeTimes.t:BDSKY10_PT_G_2y" spec="RealParameter" value="0 12.0001"/>
+<function spec="Slice" id="samplingProportionSlice.t:BDSKY10_PT_G_2y" arg="@samplingProportion.t:BDSKY10_PT_G_2y" index="1" count="1"/>
+
+<run id="mcmc" spec="MCMC" chainLength="200000000">
+    <state id="state" storeEvery="5000">
+        <tree id="Tree.t:BDSKY10_PT_G_2y" name="stateNode">
+            <trait id="dateTrait.t:BDSKY10_PT_G_2y" spec="beast.evolution.tree.TraitSet" traitname="date">
+                XXX           
+  <taxa id="TaxonSet.BDSKY10_PT_G_2y" spec="TaxonSet">
+                    <alignment idref="BDSKY10_PT_G_2y"/>
+                </taxa>
+            </trait>
+            <taxonset idref="TaxonSet.BDSKY10_PT_G_2y"/>
+        </tree>
+        <parameter id="kappa.s:BDSKY10_PT_G_2y" lower="0.0" name="stateNode">2.0</parameter>
+        <parameter id="clockRate.c:BDSKY10_PT_G_2y" name="stateNode">0.002</parameter>
+        <parameter id="origin.t:BDSKY10_PT_G_2y" lower="0.0" name="stateNode" upper="100">50.0</parameter>
+        <parameter id="samplingProportion.t:BDSKY10_PT_G_2y" lower="0.01" name="stateNode" upper="0.2">0 0.05</parameter>
+        <parameter id="freqParameter.s:BDSKY10_PT_G_2y" dimension="4" lower="0.0" name="stateNode" upper="1.0">0.25</parameter>
+
+        <parameter id="reproductiveNumber.t:BDSKY10_PT_G_2y" dimension="10" lower="0.0" name="stateNode" upper="Infinity">2.0</parameter>
+
+    </state>
+
+    <init id="RandomTree.t:BDSKY10_PT_G_2y" spec="beast.evolution.tree.RandomTree" estimate="false" initial="@Tree.t:BDSKY10_PT_G_2y" taxa="@BDSKY10_PT_G_2y">
+        <populationModel id="ConstantPopulation0.t:BDSKY10_PT_G_2y" spec="ConstantPopulation">
+            <parameter id="randomPopSize.t:BDSKY10_PT_G_2y" name="popSize">1.0</parameter>
+        </populationModel>
+    </init>
+
+    <distribution id="posterior" spec="util.CompoundDistribution">
+        <distribution id="prior" spec="util.CompoundDistribution">
+            <distribution id="BirthDeathSkySerial.t:BDSKY10_PT_G_2y" 
+                          spec="beast.evolution.speciation.BirthDeathSkylineModel" 
+                          origin="@origin.t:BDSKY10_PT_G_2y" 
+                          reproductiveNumber="@reproductiveNumber.t:BDSKY10_PT_G_2y"                           
+                          samplingProportion="@samplingProportion.t:BDSKY10_PT_G_2y" 
+                          samplingRateChangeTimes="@samplingRateChangeTimes.t:BDSKY10_PT_G_2y"
+                          tree="@Tree.t:BDSKY10_PT_G_2y">
+                <birthRateChangeTimes spec="TreeSlicer" id="TreeSlice" stop="tmrca" includeLast="false" dimension="10" tree="@Tree.t:BDSKY10_PT_G_2y"/>
+                <reverseTimeArrays id="reverseTimeArrays" spec="BooleanParameter" value="true false true false false"/>
+                <becomeUninfectiousRate id="becomeUninfectiousRate.t:BDSKY10_PT_G_2y" spec="RealParameter" value="0.5"/>
+            </distribution>
+            
+            <prior id="ClockPrior.c:BDSKY10_PT_G_2y" name="distribution" x="@clockRate.c:BDSKY10_PT_G_2y">
+                <LogNormal id="LogNormalDistributionModel.3" meanInRealSpace="true" name="distr">
+                    <parameter id="RealParameter.12" estimate="false" name="M">0.001</parameter>
+                    <parameter id="RealParameter.13" estimate="false" lower="0.0" name="S" upper="5.0">1.25</parameter>
+                </LogNormal>            </prior>
+            <prior id="KappaPrior.s:BDSKY10_PT_G_2y" name="distribution" x="@kappa.s:BDSKY10_PT_G_2y">
+                <LogNormal id="LogNormalDistributionModel.0" name="distr">
+                    <parameter id="RealParameter.1" estimate="false" name="M">1.0</parameter>
+                    <parameter id="RealParameter.2" estimate="false" name="S">1.25</parameter>
+                </LogNormal>
+            </prior>
+            <prior id="originPrior.t:BDSKY10_PT_G_2y" name="distribution" x="@origin.t:BDSKY10_PT_G_2y">
+                <Uniform id="Uniform.3" name="distr" upper="100.0"/>
+            </prior>
+            
+            <prior id="reproductiveNumberPrior.t:BDSKY10_PT_G_2y" name="distribution" x="@reproductiveNumber.t:BDSKY10_PT_G_2y">
+                <LogNormal id="LogNormalDistributionModel.2" name="distr">
+                    <parameter id="RealParameter.7" estimate="false" name="M">1.0</parameter>
+                    <parameter id="RealParameter.8" estimate="false" name="S">1.25</parameter>
+                </LogNormal>
+            </prior>
+            <prior id="samplingProportionPrior.t:BDSKY10_PT_G_2y" name="distribution" x="@samplingProportionSlice.t:BDSKY10_PT_G_2y">
+                <Beta id="Beta.0" name="distr">
+                    <parameter id="RealParameter.3" estimate="false" name="alpha">1.0</parameter>
+                    <parameter id="RealParameter.4" estimate="false" name="beta">10.0</parameter>
+                </Beta>
+            </prior>
+        </distribution>
+        
+        <distribution id="MRCA.prior" spec="beast.math.distributions.MRCAPrior" monophyletic="true" tree="@Tree.t:BDSKY10_PT_G_2y">
+                <taxonset idref="TaxonSet.BDSKY10_PT_G_2y"/>
+                <Normal id="Normal.0" name="distr">
+                    <parameter id="RealParameter.15" estimate="false" name="mean">1976.926</parameter>
+                    <parameter id="RealParameter.16" estimate="false" name="sigma">2.065</parameter>
+                </Normal>
+        </distribution> 
+        
+        <distribution id="likelihood" spec="util.CompoundDistribution" useThreads="true">
+            <distribution id="treeLikelihood.BDSKY10_PT_G_2y" spec="ThreadedTreeLikelihood" data="@BDSKY10_PT_G_2y" tree="@Tree.t:BDSKY10_PT_G_2y">
+                <siteModel id="SiteModel.s:BDSKY10_PT_G_2y" spec="SiteModel">
+                    <parameter id="mutationRate.s:BDSKY10_PT_G_2y" estimate="false" name="mutationRate">1.0</parameter>
+                    <parameter id="gammaShape.s:BDSKY10_PT_G_2y" estimate="false" name="shape">1.0</parameter>
+                    <parameter id="proportionInvariant.s:BDSKY10_PT_G_2y" estimate="false" lower="0.0" name="proportionInvariant" upper="1.0">0.0</parameter>
+                    <substModel id="hky.s:BDSKY10_PT_G_2y" spec="HKY" kappa="@kappa.s:BDSKY10_PT_G_2y">
+                        <frequencies id="estimatedFreqs.s:BDSKY10_PT_G_2y" spec="Frequencies" frequencies="@freqParameter.s:BDSKY10_PT_G_2y"/>
+                    </substModel>
+                </siteModel>
+                <branchRateModel id="StrictClock.c:BDSKY10_PT_G_2y" spec="beast.evolution.branchratemodel.StrictClockModel" clock.rate="@clockRate.c:BDSKY10_PT_G_2y"/>
+            </distribution>
+        </distribution>
+    </distribution>
+
+    <operator id="KappaScaler.s:BDSKY10_PT_G_2y" spec="ScaleOperator" parameter="@kappa.s:BDSKY10_PT_G_2y" scaleFactor="0.75" weight="0.1"/>
+
+    <operator id="StrictClockRateScaler.c:BDSKY10_PT_G_2y" spec="ScaleOperator" parameter="@clockRate.c:BDSKY10_PT_G_2y" scaleFactor="0.75" weight="3.0"/>
+
+    <operator id="strictClockUpDownOperator.c:BDSKY10_PT_G_2y" spec="UpDownOperator" scaleFactor="0.75" weight="3.0">
+        <up idref="clockRate.c:BDSKY10_PT_G_2y"/>
+        <down idref="Tree.t:BDSKY10_PT_G_2y"/>
+    </operator>
+
+    <operator id="BDSKY_serialtreeScaler.t:BDSKY10_PT_G_2y" spec="ScaleOperator" scaleFactor="0.5" tree="@Tree.t:BDSKY10_PT_G_2y" weight="3.0"/>
+    <operator id="BDSKY_serialtreeRootScaler.t:BDSKY10_PT_G_2y" spec="ScaleOperator" rootOnly="true" scaleFactor="0.5" tree="@Tree.t:BDSKY10_PT_G_2y" weight="3.0"/>
+    <operator id="BDSKY_serialUniformOperator.t:BDSKY10_PT_G_2y" spec="Uniform" tree="@Tree.t:BDSKY10_PT_G_2y" weight="30.0"/>
+    <operator id="BDSKY_serialSubtreeSlide.t:BDSKY10_PT_G_2y" spec="SubtreeSlide" tree="@Tree.t:BDSKY10_PT_G_2y" weight="15.0"/>
+    <operator id="BDSKY_serialnarrow.t:BDSKY10_PT_G_2y" spec="Exchange" tree="@Tree.t:BDSKY10_PT_G_2y" weight="15.0"/>
+    <operator id="BDSKY_serialwide.t:BDSKY10_PT_G_2y" spec="Exchange" isNarrow="false" tree="@Tree.t:BDSKY10_PT_G_2y" weight="3.0"/>
+    <operator id="BDSKY_serialWilsonBalding.t:BDSKY10_PT_G_2y" spec="WilsonBalding" tree="@Tree.t:BDSKY10_PT_G_2y" weight="3.0"/>
+
+    <operator id="samplingScaler.t:BDSKY10_PT_G_2y" spec="ScaleOperator" parameter="@samplingProportion.t:BDSKY10_PT_G_2y" scaleFactor="0.75" weight="2.0"/>
+    <operator id="reproductiveNumberScaler.t:BDSKY10_PT_G_2y" spec="ScaleOperator" parameter="@reproductiveNumber.t:BDSKY10_PT_G_2y" scaleFactor="0.75" weight="10.0"/>
+    <operator id="origScaler.t:BDSKY10_PT_G_2y" spec="ScaleOperator" parameter="@origin.t:BDSKY10_PT_G_2y" scaleFactor="0.75" weight="1.0"/>
+
+    <operator id="FrequenciesExchanger.s:BDSKY10_PT_G_2y" spec="DeltaExchangeOperator" delta="0.01" weight="0.1">
+        <parameter idref="freqParameter.s:BDSKY10_PT_G_2y"/>
+    </operator>
+
+    <logger id="tracelog" fileName="bdsky_treeslicer_model2_$(seed).log" logEvery="10000" model="@posterior" sanitiseHeaders="true" sort="smart">
+        <log idref="posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+        <log idref="treeLikelihood.BDSKY10_PT_G_2y"/>
+        <log idref="BirthDeathSkySerial.t:BDSKY10_PT_G_2y"/>
+
+        <log idref="kappa.s:BDSKY10_PT_G_2y"/>
+        <log idref="freqParameter.s:BDSKY10_PT_G_2y"/>
+        <log idref="clockRate.c:BDSKY10_PT_G_2y"/>
+
+        <log idref="origin.t:BDSKY10_PT_G_2y"/>
+        <log id="TreeHeight.t:BDSKY10_PT_G_2y" spec="beast.evolution.tree.TreeHeightLogger" tree="@Tree.t:BDSKY10_PT_G_2y"/>
+
+        <log idref="samplingProportion.t:BDSKY10_PT_G_2y"/>
+        <log idref="becomeUninfectiousRate.t:BDSKY10_PT_G_2y"/>
+        <log idref="reproductiveNumber.t:BDSKY10_PT_G_2y"/>
+        <log spec="TreeSliceDateLogger" treeSlice="@TreeSlice"/>
+
+        <log id="birth.t:BDSKY10_PT_G_2y" spec="beast.math.statistic.RPNcalculator" expression="reproductiveNumber.t:BDSKY10_PT_G_2y becomeUninfectiousRate.t:BDSKY10_PT_G_2y *">
+            <parameter idref="becomeUninfectiousRate.t:BDSKY10_PT_G_2y"/>
+            <parameter idref="reproductiveNumber.t:BDSKY10_PT_G_2y"/>
+        </log>
+        <log id="death.t:BDSKY10_PT_G_2y" spec="beast.math.statistic.RPNcalculator" expression="becomeUninfectiousRate.t:BDSKY10_PT_G_2y 1 samplingProportion.t:BDSKY10_PT_G_2y - *">
+            <parameter idref="becomeUninfectiousRate.t:BDSKY10_PT_G_2y"/>
+            <parameter idref="samplingProportion.t:BDSKY10_PT_G_2y"/>
+        </log>
+        <log id="sampling.t:BDSKY10_PT_G_2y" spec="beast.math.statistic.RPNcalculator" expression="becomeUninfectiousRate.t:BDSKY10_PT_G_2y samplingProportion.t:BDSKY10_PT_G_2y *">
+            <parameter idref="becomeUninfectiousRate.t:BDSKY10_PT_G_2y"/>
+            <parameter idref="samplingProportion.t:BDSKY10_PT_G_2y"/>
+        </log>
+    </logger>
+
+    <logger id="screenlog" logEvery="10000">
+        <log idref="posterior"/>
+        <log id="ESS.0" spec="util.ESS" arg="@posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+    </logger>
+
+    <logger id="treelog.t:BDSKY10_PT_G_2y" fileName="$(tree)_$(seed).trees" logEvery="10000" mode="tree">
+        <log id="TreeWithMetaDataLogger.t:bdsky_treeslicer_model2" spec="beast.evolution.tree.TreeWithMetaDataLogger" tree="@Tree.t:BDSKY10_PT_G_2y"/>
+    </logger>
+
+</run>
+
+</beast>
